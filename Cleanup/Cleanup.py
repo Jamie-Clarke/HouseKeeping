@@ -12,6 +12,7 @@ loggingdirectory = '/home/bedegaminguser/loggingdirectory'
 # Mode determines what action should be taken against log files once we hit 95% usage
 mode = 'ROTATION'
 disk = '/home'
+# At what point should we start taking action against log files
 threshold = 95
 obj_Disk = psutil.disk_usage(disk)
 diskUsedSpace = obj_Disk.percent
