@@ -7,4 +7,5 @@ mkdir -p dir /home/bedegaminguser/loggingdirectory
 chgrp bedegaminggroup /home/bedegaminguser/loggingdirectory
 chmod g+rwx /home/bedegaminguser/loggingdirectory
 cd /home/bedegaminguser/loggingdirectory
-git clone git://github.com/SnowTurtle96/Logging.git
+git clone git://github.com/Jamie-Clarke/HouseKeeping.git
+
